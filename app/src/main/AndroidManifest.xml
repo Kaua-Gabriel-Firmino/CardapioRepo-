@@ -13,6 +13,9 @@
         android:theme="@style/Theme.CardapioProject"
         tools:targetApi="31">
         <activity
+            android:name=".TelaBebidasBackEnd"
+            android:exported="false" />
+        <activity
             android:name=".TelaAlimentosBackEnd"
             android:exported="true">
             <intent-filter>
