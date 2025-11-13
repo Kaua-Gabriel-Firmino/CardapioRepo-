@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">CardapioProject</string>
+    <string name="app_name">Teste Slide</string>
+    <string name="texto_macarrao">Macarrão carbonara</string>
+    <string name="texto_risoto">Risoto</string>
+    <string name="texto_rondelli">Rondelli</string>
+
 </resources>

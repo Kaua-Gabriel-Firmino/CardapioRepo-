@@ -19,7 +19,53 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtrisoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/texto_risoto" />
+
+            <ImageView
+                android:id="@+id/imgrisoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/texto_risoto"
+                android:src="@drawable/png" />
+
+            <TextView
+                android:id="@+id/txtrondelli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/texto_rondelli" />
+
+            <ImageView
+                android:id="@+id/imgrondelli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/texto_rondelli"
+                android:src="@drawable/Rondelli" />
+
+            <TextView
+                android:id="@+id/txtmacarrao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/texto_macarrao" />
+
+            <ImageView
+                android:id="@+id/imgmacarrao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/texto_macarrao"
+                android:src="@drawable/macarrão" />
+        </LinearLayout>
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
