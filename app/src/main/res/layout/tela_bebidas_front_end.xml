@@ -15,43 +15,51 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/txtcoca"
+                android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="@string/texto_coca" />
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/imgcoca"
                 android:layout_width="250dp"
                 android:layout_height="250dp"
+                android:contentDescription="@string/texto_coca"
                 app:srcCompat="@drawable/coca" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/txtfanta"
+                android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="@string/texto_fanta" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imgfanta"
                 android:layout_width="250dp"
                 android:layout_height="250dp"
+                android:contentDescription="@string/texto_fanta"
                 app:srcCompat="@drawable/fanta" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/txtsprite"
+                android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="@string/texto_sprite" />
 
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/imgsprite"
                 android:layout_width="250dp"
                 android:layout_height="250dp"
-                app:srcCompat="@drawable/sprite" />
+                android:contentDescription="@string/texto_sprite"
+                app:srcCompat="@drawable/sprite"/>
+
         </LinearLayout>
     </ScrollView>
 
